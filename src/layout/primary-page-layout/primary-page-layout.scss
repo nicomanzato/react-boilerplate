@@ -1,0 +1,19 @@
+@import 'variables';
+
+.primary-page-layout {
+  display: flex;
+  flex: 1;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+
+  &__spinner {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+}

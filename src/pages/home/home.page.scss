@@ -1,0 +1,23 @@
+@import 'variables';
+
+.home-page {
+  flex: 1;
+  height: 100%;
+  
+  &__cryptocurrency-details {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__cryptocurrency-detail {
+    display: block;
+    flex: 1;
+    margin: $spacings-XS;
+  }
+
+  &__spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

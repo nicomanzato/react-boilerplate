@@ -1,0 +1,32 @@
+@import 'variables';
+
+.header {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+	align-items: center;
+  border-bottom: $primary-border;
+
+  &__navigation-bar {
+		display: flex;
+		align-items: center;
+	}
+
+  &__navigation-bar-route {
+    @include font-size-M;
+    padding: $spacings-S;
+  	color: black;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: $primary-border-radius;
+    margin: 0 $spacings-S;
+
+    &:hover {
+      background-color: $highlight-background-color;
+      color: $highlight-text-color;
+    }
+  }
+}

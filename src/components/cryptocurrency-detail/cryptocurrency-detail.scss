@@ -1,0 +1,16 @@
+@import 'variables';
+
+.cryptocurrency-detail {
+  @include font-size-M;
+  padding: $spacings-M;
+  display: flex;
+  border: $primary-border;
+  min-width: 200px;
+  justify-content: space-between;
+  border-radius: $primary-border-radius;
+
+  &:hover {
+    border: $highlight-border;
+    cursor: pointer;
+  }
+}

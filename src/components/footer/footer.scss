@@ -1,0 +1,16 @@
+@import 'variables';
+
+.footer {
+  @include font-size-M;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-top: $primary-border;
+
+  &__repository-label {
+    @include font-size-M;
+    color: $primary-text-color;
+  }
+}

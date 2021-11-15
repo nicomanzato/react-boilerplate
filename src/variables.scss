@@ -1,0 +1,48 @@
+@import 'utils/utils.scss';
+
+// Colors
+$purple: purple;
+$lightpurple: rgba($purple, 0.1);
+$white: white;
+$black: black;
+$grey: grey;
+$lightgrey: rgba($grey, 0.1);
+
+// Text colors
+$primary-text-color: $black;
+$highlight-text-color: $purple;
+
+// Background colors
+$primary-background-color: $white;
+$highlight-background-color: $lightpurple;
+
+// Box shadow
+$primary-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.07);
+
+// Border
+$primary-border: rem-calc(1px) solid $lightgrey;
+$highlight-border: rem-calc(1px) solid $purple;
+
+// border-radius
+$primary-border-radius: rem-calc(5px);
+
+// Spacings
+$spacings-XS: rem-calc(4);
+$spacings-S: rem-calc(10);
+$spacings-M: rem-calc(16);
+$spacings-L: rem-calc(24);
+$spacings-XL: rem-calc(30);
+$spacings-XXL: rem-calc(70);
+$spacings-XXXL: rem-calc(200);
+
+@mixin font-size-XL {
+  font-size: 36px;
+}
+
+@mixin font-size-L {
+	font-size: 18px;
+}
+
+@mixin font-size-M {
+	font-size: 16px;
+}
